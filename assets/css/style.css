@@ -207,8 +207,9 @@
 }
 @media screen and (max-width: 600px) {
   * body .container header {
+    padding: 2% 4%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   * body .container header .header_logo img {
     width: 70%;
@@ -217,8 +218,9 @@
     display: none;
   }
   * body .container header nav ul {
+    display: none;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 12px;
   }
   * body .container header nav ul li span {
@@ -229,6 +231,7 @@
     line-height: 12px;
   }
   * body .container header .header_icon {
+    display: none;
     gap: 5px;
   }
   * body .container header .header_icon h5 {

@@ -238,8 +238,9 @@
           }
         }
         @media screen and (max-width: 600px) {
+        padding: 2% 4%;
           display: flex;
-          justify-content: space-evenly;
+          justify-content: space-between;
           .header_logo{
             img{
               width: 70%;
@@ -248,8 +249,9 @@
           nav {
             display: none;
             ul {
+            display: none;
               display: flex;
-              align-items: center;
+              align-items: flex-end;
               gap: 12px;
               li {
                 span{
@@ -263,6 +265,7 @@
             }
           }
           .header_icon{
+            display: none;
             gap: 5px;
             h5{
               font-size: 10px;
