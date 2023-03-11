@@ -7,7 +7,7 @@
   body {
     background: #eeeeee;
     .container {
-      border: 2px solid red;
+      // border: 2px solid red;
       header {
         background: #ffffff;
         box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
@@ -3569,7 +3569,7 @@
                   font-size: 24px;
                   line-height: 32px;
                   color: #011f3a;
-                padding-top: 119px;
+                  padding-top: 119px;
                 }
                 p {
                   font-family: "Lato";
@@ -3661,7 +3661,7 @@
                   font-size: 24px;
                   line-height: 32px;
                   color: #011f3a;
-                padding-top: 119px;
+                  padding-top: 119px;
                 }
                 p {
                   font-family: "Lato";
@@ -3729,47 +3729,44 @@
               }
             }
           }
-          @media screen and (max-width:1373px){
-            .section_merchants_child{
+          @media screen and (max-width: 1373px) {
+            .section_merchants_child {
               display: grid;
               grid-template-columns: repeat(2, 1fr);
               margin-right: 120px;
               margin-left: 120px;
               padding-top: 100px;
-              .section_merchants_child_item{
-                &:nth-of-type(1){
-
+              .section_merchants_child_item {
+                &:nth-of-type(1) {
                 }
-                &:nth-of-type(2){
-
+                &:nth-of-type(2) {
                 }
-                &:nth-of-type(3){
-                 
+                &:nth-of-type(3) {
                 }
-                &:nth-of-type(4){
-                  p{
+                &:nth-of-type(4) {
+                  p {
                     font-size: 22px;
-                  line-height: 30px;
+                    line-height: 30px;
                   }
-                  .section_merchants_child_item_row{
-                    .section_merchants_child_item_row_col{
-                      &:nth-of-type(1){
-                        img{
+                  .section_merchants_child_item_row {
+                    .section_merchants_child_item_row_col {
+                      &:nth-of-type(1) {
+                        img {
                           width: 20%;
                         }
-                        .section_merchants_child_item_row_col_text{
-                          h4{
+                        .section_merchants_child_item_row_col_text {
+                          h4 {
                             font-size: 16px;
                             line-height: 20px;
                           }
-                          h5{
+                          h5 {
                             font-size: 13px;
                             line-height: 22px;
                           }
                         }
                       }
-                      &:nth-of-type(2){
-                        button{
+                      &:nth-of-type(2) {
+                        button {
                           font-size: 12px;
                           line-height: 16px;
                           padding: 11px 23px;
@@ -3778,30 +3775,30 @@
                     }
                   }
                 }
-                &:nth-of-type(5){
-                  p{
+                &:nth-of-type(5) {
+                  p {
                     font-size: 22px;
-                  line-height: 30px;
+                    line-height: 30px;
                   }
-                  .section_merchants_child_item_row{
-                    .section_merchants_child_item_row_col{
-                      &:nth-of-type(1){
-                        img{
+                  .section_merchants_child_item_row {
+                    .section_merchants_child_item_row_col {
+                      &:nth-of-type(1) {
+                        img {
                           width: 30%;
                         }
-                        .section_merchants_child_item_row_col_text{
-                          h4{
+                        .section_merchants_child_item_row_col_text {
+                          h4 {
                             font-size: 16px;
                             line-height: 20px;
                           }
-                          h5{
+                          h5 {
                             font-size: 13px;
                             line-height: 22px;
                           }
                         }
                       }
-                      &:nth-of-type(2){
-                        button{
+                      &:nth-of-type(2) {
+                        button {
                           font-size: 12px;
                           line-height: 16px;
                           padding: 11px 23px;
@@ -3810,36 +3807,34 @@
                     }
                   }
                 }
-                &:nth-of-type(6){
-
+                &:nth-of-type(6) {
                 }
-                &:nth-of-type(7){
-
+                &:nth-of-type(7) {
                 }
-                &:nth-of-type(8){
-                  p{
+                &:nth-of-type(8) {
+                  p {
                     font-size: 22px;
-                  line-height: 30px;
+                    line-height: 30px;
                   }
-                  .section_merchants_child_item_row{
-                    .section_merchants_child_item_row_col{
-                      &:nth-of-type(1){
-                        img{
+                  .section_merchants_child_item_row {
+                    .section_merchants_child_item_row_col {
+                      &:nth-of-type(1) {
+                        img {
                           width: 30%;
                         }
-                        .section_merchants_child_item_row_col_text{
-                          h4{
+                        .section_merchants_child_item_row_col_text {
+                          h4 {
                             font-size: 16px;
                             line-height: 20px;
                           }
-                          h5{
+                          h5 {
                             font-size: 13px;
                             line-height: 22px;
                           }
                         }
                       }
-                      &:nth-of-type(2){
-                        button{
+                      &:nth-of-type(2) {
+                        button {
                           font-size: 12px;
                           line-height: 16px;
                           padding: 11px 23px;
@@ -3851,47 +3846,49 @@
               }
             }
           }
-          @media screen and (max-width:1314px){
-            .section_merchants_child{
+          @media screen and (max-width: 1314px) {
+            .section_merchants_child {
               display: grid;
               grid-template-columns: repeat(2, 1fr);
               margin-right: 120px;
               margin-left: 120px;
               padding-top: 100px;
-              .section_merchants_child_item{
-                &:nth-of-type(1){
-
-                }
-                &:nth-of-type(2){
-
-                }
-                &:nth-of-type(3){
-                 
-                }
-                &:nth-of-type(4){
-                  p{
-                    font-size: 22px;
-                  line-height: 30px;
+              .section_merchants_child_item {
+                &:nth-of-type(1) {
+                  img {
+                    width: 40%;
+                    height: 95%;
+                    object-fit: cover;
                   }
-                  .section_merchants_child_item_row{
-                    .section_merchants_child_item_row_col{
-                      &:nth-of-type(1){
-                        img{
+                }
+                &:nth-of-type(2) {
+                }
+                &:nth-of-type(3) {
+                }
+                &:nth-of-type(4) {
+                  p {
+                    font-size: 22px;
+                    line-height: 30px;
+                  }
+                  .section_merchants_child_item_row {
+                    .section_merchants_child_item_row_col {
+                      &:nth-of-type(1) {
+                        img {
                           width: 20%;
                         }
-                        .section_merchants_child_item_row_col_text{
-                          h4{
+                        .section_merchants_child_item_row_col_text {
+                          h4 {
                             font-size: 16px;
                             line-height: 20px;
                           }
-                          h5{
+                          h5 {
                             font-size: 13px;
                             line-height: 22px;
                           }
                         }
                       }
-                      &:nth-of-type(2){
-                        button{
+                      &:nth-of-type(2) {
+                        button {
                           font-size: 12px;
                           line-height: 16px;
                           padding: 11px 23px;
@@ -3900,30 +3897,30 @@
                     }
                   }
                 }
-                &:nth-of-type(5){
-                  p{
+                &:nth-of-type(5) {
+                  p {
                     font-size: 22px;
-                  line-height: 30px;
+                    line-height: 30px;
                   }
-                  .section_merchants_child_item_row{
-                    .section_merchants_child_item_row_col{
-                      &:nth-of-type(1){
-                        img{
+                  .section_merchants_child_item_row {
+                    .section_merchants_child_item_row_col {
+                      &:nth-of-type(1) {
+                        img {
                           width: 30%;
                         }
-                        .section_merchants_child_item_row_col_text{
-                          h4{
+                        .section_merchants_child_item_row_col_text {
+                          h4 {
                             font-size: 16px;
                             line-height: 20px;
                           }
-                          h5{
+                          h5 {
                             font-size: 13px;
                             line-height: 22px;
                           }
                         }
                       }
-                      &:nth-of-type(2){
-                        button{
+                      &:nth-of-type(2) {
+                        button {
                           font-size: 12px;
                           line-height: 16px;
                           padding: 11px 23px;
@@ -3932,36 +3929,34 @@
                     }
                   }
                 }
-                &:nth-of-type(6){
-
+                &:nth-of-type(6) {
                 }
-                &:nth-of-type(7){
-
+                &:nth-of-type(7) {
                 }
-                &:nth-of-type(8){
-                  p{
+                &:nth-of-type(8) {
+                  p {
                     font-size: 22px;
-                  line-height: 30px;
+                    line-height: 30px;
                   }
-                  .section_merchants_child_item_row{
-                    .section_merchants_child_item_row_col{
-                      &:nth-of-type(1){
-                        img{
+                  .section_merchants_child_item_row {
+                    .section_merchants_child_item_row_col {
+                      &:nth-of-type(1) {
+                        img {
                           width: 30%;
                         }
-                        .section_merchants_child_item_row_col_text{
-                          h4{
+                        .section_merchants_child_item_row_col_text {
+                          h4 {
                             font-size: 16px;
                             line-height: 20px;
                           }
-                          h5{
+                          h5 {
                             font-size: 13px;
                             line-height: 22px;
                           }
                         }
                       }
-                      &:nth-of-type(2){
-                        button{
+                      &:nth-of-type(2) {
+                        button {
                           font-size: 12px;
                           line-height: 16px;
                           padding: 11px 23px;
@@ -3974,7 +3969,7 @@
             }
           }
         }
-        .section_design {
+        .section_design { 
           padding-top: 120px;
           padding-bottom: 137px;
           h3 {

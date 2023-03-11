@@ -8,9 +8,6 @@
 * body {
   background: #eeeeee;
 }
-* body .container {
-  border: 2px solid red;
-}
 * body .container header {
   background: #ffffff;
   box-shadow: 0px 14px 44px rgba(84, 84, 84, 0.25);
@@ -3487,6 +3484,12 @@
     margin-right: 120px;
     margin-left: 120px;
     padding-top: 100px;
+  }
+  * body .container main .section_merchants .section_merchants_child .section_merchants_child_item:nth-of-type(1) img {
+    width: 40%;
+    height: 95%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   * body .container main .section_merchants .section_merchants_child .section_merchants_child_item:nth-of-type(4) p {
     font-size: 22px;
