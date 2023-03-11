@@ -20,6 +20,7 @@
         .header_logo {
           display: flex;
           align-items: center;
+          cursor: pointer;
           img {
             width: 100%;
           }
@@ -32,6 +33,7 @@
             li {
               list-style-type: none;
               span {
+                cursor: pointer;
                 padding-right: 13px;
               }
               a {
@@ -69,6 +71,7 @@
           display: flex;
           align-items: center;
           gap: 25px;
+          cursor: pointer;
           h5 {
             font-family: "Roboto";
             font-style: normal;
@@ -313,6 +316,7 @@
                   padding-top: 33px;
                 }
                 button {
+                  cursor: pointer;
                   margin-top: 14px;
                   font-family: "Roboto";
                   font-style: normal;
@@ -336,6 +340,7 @@
                 }
               }
               &:nth-of-type(2) {
+                cursor: pointer;
                 margin-top: 87px;
                 width: 504px;
                 height: 504px;
@@ -348,6 +353,7 @@
             }
           }
           .section_fast_two {
+            padding-bottom: 20px;
             margin-top: 98px;
             padding-top: 20px;
             padding-left: 120px;
@@ -357,6 +363,9 @@
             .section_fast_two_item {
               display: flex;
               gap: 16px;
+              img {
+                cursor: pointer;
+              }
               span {
                 font-family: "Roboto";
                 font-style: normal;
@@ -974,6 +983,7 @@
               color: #011f3a;
             }
             button {
+              cursor: pointer;
               font-family: "Roboto";
               font-style: normal;
               font-weight: 700;
@@ -1004,11 +1014,18 @@
             .section_product_two_item {
               .section_product_two_item_img {
                 width: 100%;
+                overflow: hidden;
                 // height: 302px;
                 img {
+                  transition: all 0.4s;
+                  cursor: pointer;
                   width: 100%;
                   height: 100%;
                   object-fit: cover;
+                  &:hover {
+                    scale: 1.2;
+                    transition: all 0.4s;
+                  }
                 }
               }
               h4 {
@@ -1074,6 +1091,7 @@
             align-items: center;
             gap: 16px;
             span {
+              cursor: pointer;
               font-family: "Roboto";
               font-style: normal;
               font-weight: 700;
@@ -1082,6 +1100,7 @@
               color: #a1a1a1;
             }
             button {
+              cursor: pointer;
               padding: 13px 25px;
               font-family: "Roboto";
               font-style: normal;
@@ -2059,10 +2078,17 @@
               .section_order_one_img {
                 width: 100%;
                 // height: 300px;
+                overflow: hidden;
                 img {
+                  cursor: pointer;
                   object-fit: cover;
                   width: 100%;
                   height: 100%;
+                  transition: all 0.4s;
+                  &:hover {
+                    transition: all 0.4s;
+                    scale: 1.2;
+                  }
                 }
               }
               h5 {
@@ -2092,6 +2118,7 @@
             display: flex;
             justify-content: center;
             button {
+              cursor: pointer;
               font-family: "Roboto";
               font-style: normal;
               font-weight: 700;
@@ -2801,9 +2828,15 @@
                 width: 254px;
                 height: 254px;
                 img {
+                  cursor: pointer;
+                  transition: all 0.4s;
                   width: 100%;
                   height: 100%;
                   object-fit: cover;
+                  &:hover {
+                    transition: all 0.4s;
+                    scale: 1.2;
+                  }
                 }
               }
               h5 {
@@ -3137,6 +3170,15 @@
           margin-right: 120px;
           display: flex;
           justify-content: space-around;
+          position: relative;
+          &::after{
+            content:"";
+            background: rgba(161, 161, 161, 0.4);
+            left: 50%;
+            position: absolute;
+            height: 65%;
+            width: 2px;
+          }
           .section_request_one {
             .section_request_one_img {
               display: flex;
@@ -3145,9 +3187,15 @@
               width: 210px;
               height: 210px;
               img {
+                cursor: pointer;
+                transition: all 0.4s;
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
+                &:hover{
+                  transition: all 0.4s;
+                  scale: 1.2;
+                }
               }
             }
             h5 {
@@ -3174,6 +3222,7 @@
               display: flex;
               justify-content: center;
               button {
+                cursor: pointer;
                 margin-top: 10px;
                 padding: 13px 25px;
                 background: #ffffff;
@@ -3354,6 +3403,16 @@
             padding-top: 60px;
             padding-bottom: 60px;
             display: block;
+            position: relative;
+          &::after{
+            content:"";
+            background: rgba(161, 161, 161, 0.4);
+            top: 50%;
+            left: 10%;
+            position: absolute;
+            height: 2px;
+            width:80%;
+            }
             .section_request_one {
               &:nth-of-type(2) {
                 margin-top: 80px;
@@ -3729,247 +3788,9 @@
               }
             }
           }
-          @media screen and (max-width: 1373px) {
-            .section_merchants_child {
-              display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              margin-right: 120px;
-              margin-left: 120px;
-              padding-top: 100px;
-              .section_merchants_child_item {
-                &:nth-of-type(1) {
-                }
-                &:nth-of-type(2) {
-                }
-                &:nth-of-type(3) {
-                }
-                &:nth-of-type(4) {
-                  p {
-                    font-size: 22px;
-                    line-height: 30px;
-                  }
-                  .section_merchants_child_item_row {
-                    .section_merchants_child_item_row_col {
-                      &:nth-of-type(1) {
-                        img {
-                          width: 20%;
-                        }
-                        .section_merchants_child_item_row_col_text {
-                          h4 {
-                            font-size: 16px;
-                            line-height: 20px;
-                          }
-                          h5 {
-                            font-size: 13px;
-                            line-height: 22px;
-                          }
-                        }
-                      }
-                      &:nth-of-type(2) {
-                        button {
-                          font-size: 12px;
-                          line-height: 16px;
-                          padding: 11px 23px;
-                        }
-                      }
-                    }
-                  }
-                }
-                &:nth-of-type(5) {
-                  p {
-                    font-size: 22px;
-                    line-height: 30px;
-                  }
-                  .section_merchants_child_item_row {
-                    .section_merchants_child_item_row_col {
-                      &:nth-of-type(1) {
-                        img {
-                          width: 30%;
-                        }
-                        .section_merchants_child_item_row_col_text {
-                          h4 {
-                            font-size: 16px;
-                            line-height: 20px;
-                          }
-                          h5 {
-                            font-size: 13px;
-                            line-height: 22px;
-                          }
-                        }
-                      }
-                      &:nth-of-type(2) {
-                        button {
-                          font-size: 12px;
-                          line-height: 16px;
-                          padding: 11px 23px;
-                        }
-                      }
-                    }
-                  }
-                }
-                &:nth-of-type(6) {
-                }
-                &:nth-of-type(7) {
-                }
-                &:nth-of-type(8) {
-                  p {
-                    font-size: 22px;
-                    line-height: 30px;
-                  }
-                  .section_merchants_child_item_row {
-                    .section_merchants_child_item_row_col {
-                      &:nth-of-type(1) {
-                        img {
-                          width: 30%;
-                        }
-                        .section_merchants_child_item_row_col_text {
-                          h4 {
-                            font-size: 16px;
-                            line-height: 20px;
-                          }
-                          h5 {
-                            font-size: 13px;
-                            line-height: 22px;
-                          }
-                        }
-                      }
-                      &:nth-of-type(2) {
-                        button {
-                          font-size: 12px;
-                          line-height: 16px;
-                          padding: 11px 23px;
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-          @media screen and (max-width: 1314px) {
-            .section_merchants_child {
-              display: grid;
-              grid-template-columns: repeat(2, 1fr);
-              margin-right: 120px;
-              margin-left: 120px;
-              padding-top: 100px;
-              .section_merchants_child_item {
-                &:nth-of-type(1) {
-                  img {
-                    width: 40%;
-                    height: 95%;
-                    object-fit: cover;
-                  }
-                }
-                &:nth-of-type(2) {
-                }
-                &:nth-of-type(3) {
-                }
-                &:nth-of-type(4) {
-                  p {
-                    font-size: 22px;
-                    line-height: 30px;
-                  }
-                  .section_merchants_child_item_row {
-                    .section_merchants_child_item_row_col {
-                      &:nth-of-type(1) {
-                        img {
-                          width: 20%;
-                        }
-                        .section_merchants_child_item_row_col_text {
-                          h4 {
-                            font-size: 16px;
-                            line-height: 20px;
-                          }
-                          h5 {
-                            font-size: 13px;
-                            line-height: 22px;
-                          }
-                        }
-                      }
-                      &:nth-of-type(2) {
-                        button {
-                          font-size: 12px;
-                          line-height: 16px;
-                          padding: 11px 23px;
-                        }
-                      }
-                    }
-                  }
-                }
-                &:nth-of-type(5) {
-                  p {
-                    font-size: 22px;
-                    line-height: 30px;
-                  }
-                  .section_merchants_child_item_row {
-                    .section_merchants_child_item_row_col {
-                      &:nth-of-type(1) {
-                        img {
-                          width: 30%;
-                        }
-                        .section_merchants_child_item_row_col_text {
-                          h4 {
-                            font-size: 16px;
-                            line-height: 20px;
-                          }
-                          h5 {
-                            font-size: 13px;
-                            line-height: 22px;
-                          }
-                        }
-                      }
-                      &:nth-of-type(2) {
-                        button {
-                          font-size: 12px;
-                          line-height: 16px;
-                          padding: 11px 23px;
-                        }
-                      }
-                    }
-                  }
-                }
-                &:nth-of-type(6) {
-                }
-                &:nth-of-type(7) {
-                }
-                &:nth-of-type(8) {
-                  p {
-                    font-size: 22px;
-                    line-height: 30px;
-                  }
-                  .section_merchants_child_item_row {
-                    .section_merchants_child_item_row_col {
-                      &:nth-of-type(1) {
-                        img {
-                          width: 30%;
-                        }
-                        .section_merchants_child_item_row_col_text {
-                          h4 {
-                            font-size: 16px;
-                            line-height: 20px;
-                          }
-                          h5 {
-                            font-size: 13px;
-                            line-height: 22px;
-                          }
-                        }
-                      }
-                      &:nth-of-type(2) {
-                        button {
-                          font-size: 12px;
-                          line-height: 16px;
-                          padding: 11px 23px;
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
+        
         }
-        .section_design { 
+        .section_design {
           padding-top: 120px;
           padding-bottom: 137px;
           h3 {
@@ -3989,6 +3810,7 @@
             .section_design_item {
               &:nth-of-type(1) {
                 button {
+                  cursor: pointer;
                   font-family: "Roboto";
                   font-style: normal;
                   font-weight: 700;
@@ -4014,6 +3836,7 @@
               }
               &:nth-of-type(2) {
                 button {
+                  cursor: pointer;
                   padding: 13px 25px;
                   background: #ffffff;
                   border: 1px solid #ffffff;
@@ -4168,6 +3991,11 @@
         padding-right: 120px;
         padding-bottom: 77px;
         .footer_item {
+          &:nth-of-type(1){
+            img{
+              cursor: pointer;
+            }
+          }
           &:nth-of-type(2) {
             display: grid;
             grid-template-columns: 1fr;
@@ -4261,7 +4089,13 @@
               }
             }
             .footer_item_child {
+              cursor: pointer;
               img {
+                transition: all 0.4s;
+                &:hover{
+                  transition: all 0.4s;
+                  scale: 1.2;
+                }
                 &:nth-of-type(1) {
                   padding-right: 11px;
                 }
@@ -4315,6 +4149,7 @@
               color: rgba(61, 86, 117, 0.4);
             }
             button {
+              cursor: pointer;
               font-family: "Roboto";
               font-style: normal;
               font-weight: 700;
